@@ -1,4 +1,4 @@
-# README for ParallelVirusDetection-CUDA
+# Parallel Virus Detection - CUDA
 
 **1. Overview:**
 This project implements a parallel virus signature scanning algorithm using CUDA for efficient virus detection in biological DNA samples. The approach applies a brute-force sliding window technique to compare sample DNA sequences against virus signatures, utilizing GPU parallelization for enhanced performance.
