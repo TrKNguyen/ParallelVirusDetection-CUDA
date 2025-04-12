@@ -18,6 +18,6 @@ The algorithm uses a sliding window approach to find matches between sample and 
 **5. Files Included:**
 - **`kernel_skeleton.cu`:** Contains the core CUDA implementation for virus signature matching.
 - **`Report.pdf`:** Detailed implementation report and performance analysis.
-- **`common.h`/`common.cpp`:** Entry point for handling input/output and performance timing.
+- **`common.h`/`common.cc`:** Entry point for handling input/output and performance timing.
 - **`Makefile`:** Used to compile the CUDA project.
 - **`gen_sample.cc`/`gen_sig.cc`:** Helpers for generating sample and signature input files.
