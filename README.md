@@ -15,7 +15,7 @@ The algorithm uses a sliding window approach to find matches between sample and 
 - **First Optimization:** Precomputing the prefix sum array(using scan algorithm to compute it in O(logn)) for sample qualification scores eliminates redundant calculations.
 - **Second Optimization:** Flattening 2D arrays into 1D arrays improves memory access patterns, enhancing cache locality and performance.
 
-**7. Files Included:**
+**5. Files Included:**
 - **`kernel_skeleton.cu`:** Contains the core CUDA implementation for virus signature matching.
 - **`Report.pdf`:** Detailed implementation report and performance analysis.
 - **`common.h`/`common.cpp`:** Entry point for handling input/output and performance timing.
